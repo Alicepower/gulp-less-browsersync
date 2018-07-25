@@ -1,0 +1,1 @@
+var obj=null,As=document.getElementById("topnav").getElementsByTagName("a");for(obj=As[0],i=1;i<As.length;i++)0<=window.location.href.indexOf(As[i].href)&&(obj=As[i]);obj.id="topnav_current";

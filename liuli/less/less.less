@@ -1,0 +1,31 @@
+@wh: 300px;
+@size:18px;
+@color:#ffffff;
+@top:150px;
+.box {
+  width: @wh;
+  height: @wh;
+  font-size: @size;
+  border: 1px solid #000;
+  text-align: center;
+  color: @color;
+  background: linear-gradient(to right, rgb(64, 224, 208), rgb(255, 140, 0), rgb(255, 0, 128))
+
+}
+
+h2 {
+  &:extend(.style);
+
+}
+.style {
+  width: @wh;
+  height: @wh;
+background: #ff0080;
+  font-size: @size;
+  border: 1px solid #000;
+  color: @color;
+  margin-top: @top;
+
+
+
+}

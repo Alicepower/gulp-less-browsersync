@@ -1,0 +1,33 @@
+{
+  "name": "c",
+  "version": "1.0.1",
+  "description": "liuli test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "liuli command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "liuli",
+    "web"
+  ],
+  "author": "liuli",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
+    "streamqueue": "^1.1.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.5.0"
+  }
+}
